@@ -1,0 +1,21 @@
+body{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: gainsboro;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+.grid-box{
+    border: 1px solid black;
+    font-size: 100px;
+}
