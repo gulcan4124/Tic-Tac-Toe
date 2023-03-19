@@ -19,3 +19,21 @@ body{
     border: 1px solid black;
     font-size: 100px;
 }
+
+.game-board-button {
+    background-color: cadetblue;
+    grid-row: 2/3;
+    border: 2px solid cadetblue;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.start-game-button{
+    margin-top: 15px;
+}
+
+.clear-board-button{
+    margin-top: 10px;
+}
